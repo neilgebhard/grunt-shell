@@ -44,5 +44,4 @@ module.exports = function(grunt) {
     grunt.registerTask('server', ['express', 'watch']);
     grunt.registerTask('build', ['browserify']);
     grunt.registerTask('default', ['jshint', 'browserify', 'uglify']);
-
 };
